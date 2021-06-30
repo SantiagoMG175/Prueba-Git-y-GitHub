@@ -2,10 +2,15 @@
 
 #include <QApplication>
 
+#include <QDebug>
+
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Principal w;
+    Principal w;  
     w.show();
+
+    qDebug() << "Probando GitHub";
     return a.exec();
 }
